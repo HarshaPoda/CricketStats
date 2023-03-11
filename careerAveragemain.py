@@ -21,7 +21,6 @@ def executeScraper(url, name):
     scraper.getCareerAverages()
 
     scrapePlayer(name)
-    #getPlayerCareerSummary(name, url)
 
 if __name__ == '__main__':
     main()
